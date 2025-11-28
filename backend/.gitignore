@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Keep environment variables out of version control
+.env
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

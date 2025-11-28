@@ -1,0 +1,46 @@
+{
+  "name": "memento-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn server.ts",
+    "build": "tsc && npm run copy",
+    "copy": "copyfiles -u 1 ./config/firebase/firebase-service-account.json dist/config",
+    "start": "node dist/server.js",
+    "migrate": "prisma migrate deploy",
+    "generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@firebase/app-types": "^0.9.3",
+    "@firebase/auth-types": "^0.13.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.10",
+    "@types/uuid": "^10.0.0",
+    "copyfiles": "^2.4.1",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.4.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.11.2",
+    "@firebase/auth": "^1.9.1",
+    "@prisma/client": "^6.4.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.4.0",
+    "firebase-admin": "^13.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0"
+  }
+}

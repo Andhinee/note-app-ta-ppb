@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550630397646",
+    "project_id": "memento-rpl",
+    "storage_bucket": "memento-rpl.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550630397646:android:92d7f3c8625e927e09229f",
+        "android_client_info": {
+          "package_name": "com.rpl.memento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550630397646-k2q9pdg8a12sca73693dgnab2imff0ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESQFeNBAePRQ6-X88YJzxvapdhTtMo54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550630397646-k2q9pdg8a12sca73693dgnab2imff0ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
